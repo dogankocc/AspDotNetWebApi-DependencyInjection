@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9f6808e2a73b4fbba42eb8b196e0896d" Name="Diagram1">
+        <EntityTypeShape EntityType="Rehabil_Entities.Account" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rehabil_Entities.AccountType" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rehabil_Entities.Profile" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="Rehabil_Entities.FK_Account_AccountType" ManuallyRouted="false" />
+        <AssociationConnector Association="Rehabil_Entities.FK_Profile_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="Rehabil_Entities.AccountProfileTracking" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
